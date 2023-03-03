@@ -1,8 +1,15 @@
 {
+    "scripts": {
+        "api-tests": "cypress open",
+        "api-headless": "cypress run"
+    },
     "devDependencies": {
         "cypress": "12.7.0"
     },
     "engines": {
-    "node": ">=18"
-  }
+        "node": ">=18"
+    },
+    "dependencies": {
+        "date-fns": "2.29.3"
+    }
 }
